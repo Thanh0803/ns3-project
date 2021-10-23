@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-23T04:19:27.465Z" agent="5.0 (X11)" etag="QShsxHkdf2jO2kljOOfk" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-23T04:30:30.819Z" agent="5.0 (X11)" etag="-T2T99O1GdsNWbEr3DK2" version="15.5.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="812" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,10 +26,10 @@
         <mxCell id="cvH03DsBMHZBTObERGHX-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="55" y="270" width="10" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="cvH03DsBMHZBTObERGHX-5" value="7: Gửi thông tin mới cập nhât" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1;exitY=0.703;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="KFKGkG7VKPks62WZXjRc-24">
+        <mxCell id="cvH03DsBMHZBTObERGHX-5" value="7: Gửi thông tin mới cập nhât" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1;exitY=0.703;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="0.0175" relative="1" as="geometry">
             <mxPoint x="65" y="299.995" as="sourcePoint" />
-            <mxPoint x="340" y="300" as="targetPoint" />
+            <mxPoint x="345" y="300.02" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -38,12 +38,6 @@
         </mxCell>
         <mxCell id="KFKGkG7VKPks62WZXjRc-3" value="&quot;control&quot;&#xa;UserController&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="520" y="80" width="120" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="KFKGkG7VKPks62WZXjRc-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="KFKGkG7VKPks62WZXjRc-3" vertex="1">
-          <mxGeometry x="55" y="170" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="KFKGkG7VKPks62WZXjRc-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="KFKGkG7VKPks62WZXjRc-3" vertex="1">
-          <mxGeometry x="55" y="280" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="cvH03DsBMHZBTObERGHX-2" value="5: Trả về form cập nhập" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.51;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KFKGkG7VKPks62WZXjRc-3" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="-0.0543" relative="1" as="geometry">
@@ -70,13 +64,6 @@
             <Array as="points">
               <mxPoint x="180.5" y="310" />
             </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cvH03DsBMHZBTObERGHX-10" value="10: Thông báo kết quả" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="KFKGkG7VKPks62WZXjRc-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-95" y="370" as="targetPoint" />
-            <mxPoint x="55" y="370" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -107,10 +94,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KFKGkG7VKPks62WZXjRc-9" value="3: Gửi yêu cầu đăng nhập" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1;exitY=0.703;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="3nuBFxr9cyL0pnOWT2aG-6">
-          <mxGeometry x="0.0175" relative="1" as="geometry">
+          <mxGeometry x="1" y="-120" relative="1" as="geometry">
             <mxPoint x="297" y="200.10000000000002" as="sourcePoint" />
             <mxPoint x="580" y="274" as="targetPoint" />
-            <mxPoint as="offset" />
+            <mxPoint x="30" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFKGkG7VKPks62WZXjRc-30" value="2: Kiểm tra trạng thái đăng nhập&#xa;" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=0.52;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="3nuBFxr9cyL0pnOWT2aG-1">
