@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2021-10-23T01:59:18.402Z" agent="5.0 (X11)" etag="R_GxnyQssJvNYL78SUKk" version="15.5.8" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-23T02:38:51.395Z" agent="5.0 (X11)" etag="x_k9Y55Ew6EQWb9FPmv8" version="15.5.8" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="812" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="&quot;actor&quot;&#xa;Người dùng&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="110" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="&quot;boundary&quot;&#xa;AuthenticationView&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="230" y="80" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="55" y="85" width="10" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-9" value="2: Kiểm tra thông tin đăng nhập" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.51;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="KFKGkG7VKPks62WZXjRc-3">
+          <mxGeometry x="0.0811" y="10" relative="1" as="geometry">
+            <mxPoint x="67" y="120.10000000000002" as="sourcePoint" />
+            <mxPoint x="195.5" y="120.10000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-1" value="&quot;boundary&quot;&#xa;CoreView-MessageBox&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="365" y="80" width="135" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-3" value="&quot;control&quot;&#xa;UserController&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="KFKGkG7VKPks62WZXjRc-3">
+          <mxGeometry x="55" y="100" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-19" value="5: Kết quả" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="KFKGkG7VKPks62WZXjRc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="240" as="targetPoint" />
+            <mxPoint x="215" y="239.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-20" value="6: Thông báo kết quả" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="KFKGkG7VKPks62WZXjRc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="240" as="targetPoint" />
+            <mxPoint x="60" y="239.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-5" value="&quot;entity&quot;&#xa;User&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="KFKGkG7VKPks62WZXjRc-5">
+          <mxGeometry x="55" y="120" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-10" value="3: Kiểm tra username, password" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="KFKGkG7VKPks62WZXjRc-5" source="KFKGkG7VKPks62WZXjRc-3">
+          <mxGeometry x="0.0811" y="10" relative="1" as="geometry">
+            <mxPoint x="-75" y="149.50000000000003" as="sourcePoint" />
+            <mxPoint x="60" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="KFKGkG7VKPks62WZXjRc-5">
+          <mxGeometry x="55" y="200" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.9;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KFKGkG7VKPks62WZXjRc-5" source="KFKGkG7VKPks62WZXjRc-6" target="KFKGkG7VKPks62WZXjRc-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-340" y="170" as="sourcePoint" />
+            <mxPoint x="-180" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="148" />
+              <mxPoint x="110" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-14" value="4: Kiểm tra" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=10;" connectable="0" vertex="1" parent="KFKGkG7VKPks62WZXjRc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KFKGkG7VKPks62WZXjRc-7" value="1: Nhập thông tin &#xa;đăng nhập" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.51;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="0.0811" y="10" relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+            <mxPoint x="220" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
